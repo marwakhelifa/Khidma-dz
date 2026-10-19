@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hors ligne — Khidma DZ</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'DM Sans',system-ui,sans-serif;background:#faf9fe;color:#0f0c1d;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;}
+  .card{background:#fff;border:2px solid #e8e4f8;border-radius:24px;padding:48px 36px;text-align:center;max-width:380px;width:100%;box-shadow:0 8px 32px rgba(124,58,237,.08);}
+  .icon{font-size:64px;margin-bottom:20px;}
+  h1{font-size:22px;font-weight:800;color:#7c3aed;margin-bottom:8px;}
+  p{font-size:14px;color:#8b83a8;line-height:1.6;margin-bottom:28px;}
+  button{background:linear-gradient(135deg,#7c3aed,#5b21b6);color:#fff;border:none;border-radius:12px;padding:13px 32px;font-size:14px;font-weight:700;cursor:pointer;width:100%;}
+  button:active{opacity:.85;}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">📡</div>
+    <h1>Vous êtes hors ligne</h1>
+    <p>Vérifiez votre connexion internet et réessayez. Les pages déjà visitées sont disponibles hors ligne.</p>
+    <button onclick="location.reload()">🔄 Réessayer</button>
+  </div>
+</body>
+</html>
